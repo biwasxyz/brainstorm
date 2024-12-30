@@ -26,7 +26,7 @@ Generate a personal access token from [GitHub](https://github.com/settings/perso
    https://github_pat_your_access_tokenxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx@github.com/biwasbhandari/brainstorm.git
    ```
 
-   Example:
+   Screenshot:
 
    ![Example](https://github.com/user-attachments/assets/02a5477c-455e-4442-a4ed-a5f89dc94fd7)
 
