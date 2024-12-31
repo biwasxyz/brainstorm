@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"id":"a7e5bb60c22da1d6","type":"text","text":"Current Status","x":-740,"y":-660,"width":250,"height":60,"color":"2"},
+		{"id":"f21cd815e4cee95f","type":"text","text":"Boring","x":-780,"y":-500,"width":250,"height":60},
+		{"id":"3bac84279ffcc403","type":"text","text":"Static","x":-460,"y":-500,"width":250,"height":60},
+		{"id":"432c68b3c21815e6","type":"text","text":"Not optimized","x":-440,"y":-620,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"4ceb669991dadccc","fromNode":"a7e5bb60c22da1d6","fromSide":"bottom","toNode":"f21cd815e4cee95f","toSide":"top"},
+		{"id":"89f0ef583c23e387","fromNode":"a7e5bb60c22da1d6","fromSide":"bottom","toNode":"3bac84279ffcc403","toSide":"top"},
+		{"id":"ef6b5e64d9486792","fromNode":"a7e5bb60c22da1d6","fromSide":"bottom","toNode":"432c68b3c21815e6","toSide":"top"}
+	]
+}
