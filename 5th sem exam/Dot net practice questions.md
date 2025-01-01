@@ -62,7 +62,6 @@
     b) What is a lambda expression? Explain the concept of generic delegates with a program. [1 + 4]
     
 3. a) How is the `this` keyword used to declare an indexer? Write a C# program to overload unary (`++`) and relational (`==`) operators. [2 + 4 + 4]
-4. .a) How is the `this` keyword used to declare an indexer? Write a C# program to overload unary (`++`) and relational (`==`) operators. [2 + 4 + 4]
 
 
 ---
