@@ -316,6 +316,7 @@ class Program {
     }
 }
 ```
+
 ## Group B Solutions
 
 ### Question 1: Finalizers and `base` Keyword
@@ -688,3 +689,48 @@ class OverloadOperators {
     }
 }
 ```
+
+| Aspect            | Static                                                                              | Public Instance                                                                                    |
+| ----------------- | ----------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
+| **Class**         |                                                                                     |                                                                                                    |
+| Instantiation     | Cannot be instantiated                                                              | Can be instantiated                                                                                |
+| Inheritance       | Cannot be inherited                                                                 | Can be inherited                                                                                   |
+| Members           | Can only contain static members                                                     | Can contain both static and instance members                                                       |
+| Memory            | One copy shared by all                                                              | Separate copy for each instance                                                                    |
+| **Methods**       |                                                                                     |                                                                                                    |
+| Access            | Through class name (`Class.Method()`)                                               | Through instance (`object.Method()`)                                                               |
+| Memory Allocation | Single copy in memory                                                               | Separate for each instance                                                                         |
+| Member Access     | Can only access static members                                                      | Can access both static and instance members                                                        |
+| `this` keyword    | Cannot use                                                                          | Can use                                                                                            |
+| **Properties**    |                                                                                     |                                                                                                    |
+| Access            | Through class name (`Class.Property`)                                               | Through instance (`object.Property`)                                                               |
+| State             | Shared across all instances                                                         | Unique to each instance                                                                            |
+| Initialization    | At class load time                                                                  | At instance creation                                                                               |
+| Memory            | Single copy                                                                         | Separate copy per instance                                                                         |
+| **Constructor**   |                                                                                     |                                                                                                    |
+| Parameters        | Cannot have parameters                                                              | Can have parameters                                                                                |
+| Access Modifiers  | No access modifiers allowed                                                         | Can have access modifiers                                                                          |
+| Calling Frequency | Called once when class first used                                                   | Called each time instance created                                                                  |
+| Overloading       | Cannot be overloaded                                                                | Can be overloaded                                                                                  |
+| **Fields**        |                                                                                     |                                                                                                    |
+| Memory Location   | Stored in static memory                                                             | Stored in instance memory                                                                          |
+| Lifetime          | Entire program execution                                                            | Instance lifetime                                                                                  |
+| State Sharing     | Shared across all instances                                                         | Unique to each instance                                                                            |
+| Initialization    | At class load                                                                       | At instance creation                                                                               |
+| **Events**        |                                                                                     |                                                                                                    |
+| Subscription      | Through class name                                                                  | Through instance                                                                                   |
+| Event Storage     | Single event store                                                                  | Separate event store per instance                                                                  |
+| Handler Scope     | Shared across application                                                           | Instance-specific                                                                                  |
+| Memory            | Single copy                                                                         | Separate copy per instance                                                                         |
+| **Use Cases**     |                                                                                     |                                                                                                    |
+| Common Uses       | - Utility functions<br>- Global state<br>- Singleton pattern<br>- Extension methods | - Object-oriented programming<br>- Instance-specific behavior<br>- Encapsulation<br>- Polymorphism |
+| Best For          | - Stateless operations<br>- Global configurations<br>- Helper methods               | - Object state management<br>- Instance-specific behavior<br>- Object interactions                 |
+| **Performance**   |                                                                                     |                                                                                                    |
+| Memory Usage      | Lower (single copy)                                                                 | Higher (multiple copies)                                                                           |
+| Initialization    | Earlier (class load time)                                                           | Later (instance creation)                                                                          |
+| Thread Safety     | Needs explicit synchronization                                                      | Naturally isolated per instance                                                                    |
+| **Limitations**   |                                                                                     |                                                                                                    |
+| Inheritance       | No inheritance support                                                              | Full inheritance support                                                                           |
+| Interfaces        | Cannot implement interfaces                                                         | Can implement interfaces                                                                           |
+| Member Access     | Limited to static members                                                           | Access to all members                                                                              |
+| Polymorphism      | No polymorphic behavior                                                             | Supports polymorphism                                                                              |
