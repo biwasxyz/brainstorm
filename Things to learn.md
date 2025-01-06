@@ -1,0 +1,3 @@
+# FastAPI
+- [ ] Web-sockets
+- [ ] SSE
