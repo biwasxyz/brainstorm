@@ -1,9 +1,0 @@
-{
-	"nodes":[
-		{"id":"126c06e87fed1c89","type":"text","text":"CHATBOT","x":-620,"y":-400,"width":250,"height":60,"color":"4"},
-		{"id":"437ca4df3633b3f4","type":"text","text":"COMPANY MANAGEMENT","x":-320,"y":-400,"width":250,"height":60,"color":"2"},
-		{"id":"f9caa0fc09e67889","type":"text","text":"VISUALIZE DSA","x":0,"y":-400,"width":180,"height":60,"color":"5"},
-		{"id":"97576d8592174fdb","type":"text","text":"FETCH DATA USING STACKS AND HIRO API","x":260,"y":-400,"width":220,"height":60,"color":"3"}
-	],
-	"edges":[]
-}
