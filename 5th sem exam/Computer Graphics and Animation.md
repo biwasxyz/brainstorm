@@ -126,3 +126,56 @@
     
     - Define Virtual Reality (VR) and its key components.
     - Discuss the applications of VR in various industries.
+
+# Numerical questions:
+**Unit 1: Introduction**
+
+1. **Scan Conversion Algorithms**
+    
+    - _Line Drawing using DDA Algorithm_: Calculate the intermediate points to draw a line from (2, 3) to (10, 8) using the Digital Differential Analyzer (DDA) algorithm.
+    - _Circle Drawing using Midpoint Algorithm_: Determine the points needed to draw a circle with a radius of 5 units centered at the origin using the Midpoint Circle Algorithm.
+2. **Area Filling**
+    
+    - _Flood Fill Algorithm_: Given a 10x10 grid with a boundary defined by specific cells, apply the flood fill algorithm starting from a given interior point to fill the area.
+3. **Clipping**
+    
+    - _Cohen-Sutherland Line Clipping_: Clip a line segment from (5, 5) to (15, 15) against a rectangular clipping window defined by (xmin=0, ymin=0) and (xmax=10, ymax=10) using the Cohen-Sutherland algorithm.
+
+**Unit 2: Two-Dimensional and Three-Dimensional Transformations**
+
+1. **2D Transformations**
+    
+    - _Translation_: Translate a point (3, 4) by (dx=5, dy=-2). Calculate the new coordinates.
+    - _Rotation_: Rotate a point (4, 5) by 90 degrees counterclockwise about the origin. Determine the new position.
+    - _Scaling_: Scale a rectangle with vertices at (1,1), (1,3), (4,1), and (4,3) by factors of 2 in the x-direction and 3 in the y-direction. Find the new vertex coordinates.
+2. **3D Transformations**
+    
+    - _Rotation about the Z-axis_: Rotate a point (2, 3, 4) by 45 degrees around the Z-axis. Compute the new coordinates.
+    - _Scaling_: Scale a cube with vertices at (±1, ±1, ±1) by a factor of 2 in all directions. Determine the coordinates of the scaled cube.
+
+**Unit 3: Clipping**
+
+1. **Line Clipping**
+    
+    - _Cohen-Sutherland Algorithm_: Clip a line segment from (12, 5) to (4, 15) against a clipping window with corners at (xmin=0, ymin=0) and (xmax=10, ymax=10). Identify the visible portion of the line.
+2. **Polygon Clipping**
+    
+    - _Sutherland-Hodgman Algorithm_: Clip a polygon with vertices at (2, 2), (8, 2), (8, 8), and (2, 8) against a rectangular clipping window defined by (xmin=4, ymin=4) and (xmax=6, ymax=6). Determine the vertices of the clipped polygon.
+
+**Unit 4: Visible Surface Determination and Computer Graphics Algorithms**
+
+1. **Z-Buffer Algorithm**
+    
+    - Given two overlapping triangles in 3D space with specified vertex coordinates and depth values, apply the Z-buffer algorithm to determine which triangle's surface is visible at a particular pixel.
+2. **Color Models**
+    
+    - _RGB to CMY Conversion_: Convert an RGB color with values (R=100, G=150, B=200) to its equivalent CMY representation.
+
+**Unit 5: Animation and Virtual Reality**
+
+1. **Frame-by-Frame Animation**
+    
+    - Calculate the number of frames required to animate an object moving from position (0,0) to (10,10) over 2 seconds, given a frame rate of 30 frames per second.
+2. **Tweening**
+    
+    - Determine the intermediate positions of an object for a linear tween between (5,5) and (15,15) over 5 frames.
