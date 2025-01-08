@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"d6637f55bc948967","type":"text","text":"biwas.ai","x":-120,"y":-440,"width":121,"height":60},
+		{"id":"e785c97c0dda1ac5","type":"text","text":"Gets 3 video each 24hr for me to watch \n- During morning food\n- During the day (1 hr)\n- During NIght","x":-410,"y":-300,"width":351,"height":159},
+		{"id":"251efffcf17a2870","type":"text","text":"So each day at midnight (my timezone) it runs itself automatically and then filters out 3 videos for me one is podcast, health and communication probably the things that ","x":122,"y":-269,"width":498,"height":128}
+	],
+	"edges":[
+		{"id":"cdb1d244fdb36434","fromNode":"d6637f55bc948967","fromSide":"bottom","toNode":"e785c97c0dda1ac5","toSide":"top"},
+		{"id":"7a657144f4154219","fromNode":"e785c97c0dda1ac5","fromSide":"right","toNode":"251efffcf17a2870","toSide":"left"}
+	]
+}
