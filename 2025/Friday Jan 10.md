@@ -1,12 +1,12 @@
 # Build endpoints for website
 
 ## List of endpoints
-- /get/landing/heading
-- /get/landing/paragraph
-- /get/landing/image-url
-- /put/landing/heading
-- /put/landing/paragraph
-- /put/landing/image-url
+- /get/hero_section/heading
+- /get/hero_section/paragraph
+- /get/hero_section/image-url
+- /put/hero_section/heading
+- /put/hero_section/paragraph
+- /put/hero_section/image-url
 
 ## AIBTC.DEV
 - Setup the code upto date
