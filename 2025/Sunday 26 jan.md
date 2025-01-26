@@ -1,0 +1,2 @@
+- Run both frontend and backend properly
+- look into gh issues and try to resolve it
