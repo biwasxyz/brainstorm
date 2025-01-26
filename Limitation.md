@@ -1,1 +1,1 @@
-- Deployment of fastapi with websocket might be hassle because ==vercel does not support websocket and we don't have credit card to access digital ocean or other platform..==
+- Deployment of fastapi with websocket might be hassle because ==vercel does not support websocket and we don't have credit card to access digital ocean or other platform..
