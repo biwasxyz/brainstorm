@@ -88,8 +88,6 @@ A thorough feasibility study is conducted to assess the viability of the project
 - **4.4.4 System Design Feasibility**: Examining the proposed system's architecture and design to ensure it meets the functional and non-functional requirements. This includes evaluating the scalability, security, and maintainability of the system.
     
 
-%% Data Flow Diagram (DFD) for VortexShare
-graph TD
     A[User] -->|Uploads File| B[File Upload]
     B -->|Encrypts File| C[Encryption Service]
     C -->|Saves Encrypted File| D[Supabase Storage]
@@ -98,8 +96,6 @@ graph TD
     F -->|Accesses File| D
     D -->|Decrypts File| C
 
-%% Flowchart for VortexShare File Sharing Process
-flowchart TD
     A[Start] --> B[User Uploads File]
     B --> C[Encrypt File]
     C --> D[Save File to Storage]
@@ -109,7 +105,6 @@ flowchart TD
     G --> H[Access File with Decryption]
     H --> I[End]
 
-%% Use Case Diagram for VortexShare
 classDiagram
     class User {
         +uploadFile()
