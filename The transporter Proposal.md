@@ -41,6 +41,7 @@ The development of "The Transporter" follows a comprehensive and structured appr
 
 In this initial phase, we focus on gathering and defining the specific requirements essential for the application's success. This involves understanding user needs, technological considerations, and security imperatives.
 
+
   
 
 **i. Study of Existing Systems**
